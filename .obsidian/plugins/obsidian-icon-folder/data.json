@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "twemoji",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "👾",
+      "⚖",
+      "🌐",
+      "♦",
+      "LiFlaskRound"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": true,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "Травы": "🌿",
+  "Травы/Лунные/Лунная трава.md": "LiMoon",
+  "Травы/Луговые/Луговая трава.md": "🌸",
+  "Травы/Горные/Горная трава.md": "LiMountainSnow",
+  "Персонажи": "🧑‍🤝‍🧑",
+  "Локации": "🌐",
+  "Классы": "🧑‍🦲",
+  "Ингредиенты": "🍖",
+  "Рассы": "🧬",
+  "Способности": "⚔",
+  "Ритуалы": "⭕",
+  "Руны": "LiRussianRuble",
+  "Рецепты": "LiFlaskRound",
+  "Модификаторы": "♦",
+  "Артефакты": "⚖",
+  "Монстры и Твари": "👾"
+}
