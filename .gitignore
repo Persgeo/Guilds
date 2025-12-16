@@ -1,4 +1,57 @@
+# Obsidian Gitignore для совместной работы
+# Сохраняет заметки и плагины, игнорирует визуальные настройки
 
+# ======================
+# ИГНОРИРУЕМЫЕ НАСТРОЙКИ
+# ======================
+
+# ТЕМЫ (полностью игнорируем)
+.obsidian/themes/*
+
+# ВИЗУАЛЬНЫЕ НАСТРОЙКИ
 .obsidian/appearance.json
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
 
-.obsidian/community-plugins.json
+# НАСТРОЙКИ ИНТЕРФЕЙСА
+.obsidian/hotkeys.json
+.obsidian/core-plugins.json  # настройки встроенных плагинов
+.obsidian/community-plugins.json  # игнорируем, чтобы каждый сам выбирал плагины
+
+# ПЕРСОНАЛЬНЫЕ ФАЙЛЫ
+.obsidian/workspaces.json
+.obsidian/.trash/
+.obsidian/backups/
+.obsidian/daily-notes.json
+
+# ======================
+# СИНХРОНИЗИРУЕМЫЕ ЭЛЕМЕНТЫ
+# ======================
+# Плагины и их настройки остаются - раскомментируйте если нужно:
+# !.obsidian/plugins/
+# !.obsidian/community-plugins.json
+
+# Но если хотите синхронизировать только ВЫБРАННЫЕ плагины,
+# лучше игнорировать все плагины, а потом добавить исключения для конкретных:
+.obsidian/plugins/*
+# Пример исключения для плагина Dataview:
+# !.obsidian/plugins/dataview/
+# !.obsidian/plugins/templater-obsidian/
+
+# ======================
+# СИСТЕМНЫЕ ФАЙЛЫ
+# ======================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.swp
+*~
+
+# ======================
+# ВАРИАНТ С БОЛЕЕ СТРОГИМ ИГНОРИРОВАНИЕМ
+# (если хотите синхронизировать только заметки)
+# ======================
+# .obsidian/
+# !.obsidian/core-plugins-migrated.json
