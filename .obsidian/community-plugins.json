@@ -1,6 +1,9 @@
 [
+  "advanced-canvas",
+  "table-editor-obsidian",
+  "automatic-table-of-contents",
+  "editing-toolbar",
   "iconic",
   "obsidian-icon-folder",
-  "editing-toolbar",
-  "table-editor-obsidian"
+  "obsidian-kanban"
 ]
